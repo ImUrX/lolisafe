@@ -1,0 +1,15 @@
+Download this, remove this text, edit the token argument, remove .example, then import
+
+{
+  "Name": "i-want-to.2dgirls.date",
+  "DestinationType": "ImageUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://i-want-to.2dgirls.date/api/upload",
+  "FileFormName": "files[]",
+  "Headers": {
+    "token": "<grab this from the dashboard>"
+  },
+  "ResponseType": "Text",
+  "URL": "$json:files[0].url$",
+  "ThumbnailURL": "$json:files[0].url$"
+}
